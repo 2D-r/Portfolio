@@ -1,1 +1,1 @@
-alert("¡Bienvenido a mi portafolio!");
+//alert("¡Bienvenido a mi portafolio!");
