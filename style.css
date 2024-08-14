@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  /* ... otros estilos ... */
+  background-color: #e6e6fa; /* Gris claro pastel */
+}
+
+/* Encabezado */
+header {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+  text-align: center;
+  /* border-bottom: 1px solid #ddd; */ /* Eliminamos esta línea para quitar el borde */
+  position: fixed; /* Fijar el encabezado a la parte superior de la ventana */
+  top: 0; 
+  left: 0;
+  width: 100%; /* Asegurar que ocupe todo el ancho de la ventana */
+  z-index: 100; /* Asegurar que esté por encima de otros elementos */
+}
+
 h1 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -56,4 +74,22 @@ nav a {
 
 nav a:hover {
   color: #007bff; /* Azul al pasar el mouse */
+}
+
+/*Sections*/
+
+section {
+  box-sizing: padding-box; 
+  margin-bottom: 6px; /* Espacio entre secciones */
+  border-radius: 18px; /* Bordes redondeados */
+  overflow: hidden; /* Para que el contenido no se salga de los bordes redondeados en caso de que haya imágenes o elementos que sobresalgan */
+  
+}
+
+section:hover {
+  background-color: #c3c3fa;
+}
+
+#Sobre_mi {
+  margin-top: 170px;
 }
