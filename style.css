@@ -23,3 +23,37 @@ p {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+/* Encabezado */
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff; /* Azul al pasar el mouse */
+}
